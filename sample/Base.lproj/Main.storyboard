@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6W-bS-Fkn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1420" y="55"/>
+            <point key="canvasLocation" x="1516" y="55"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="DYb-fq-kvD">
@@ -158,12 +158,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9" y="55"/>
+            <point key="canvasLocation" x="-96" y="55"/>
         </scene>
-        <!--View Controller-->
+        <!--Select Level View Controller-->
         <scene sceneID="aEz-JT-1kc">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="0JD-1U-4Mz" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="0JD-1U-4Mz" customClass="SelectLevelViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e2w-UN-GMv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,18 +180,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="レベル1"/>
+                                <connections>
+                                    <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="UgS-Hm-dI3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiT-Aj-3ev">
                                 <rect key="frame" x="153" y="479" width="109" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="レベル2"/>
+                                <connections>
+                                    <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="Hrf-5f-xoL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9p-x3-WMK">
                                 <rect key="frame" x="153" y="640" width="110" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="レベル3"/>
+                                <connections>
+                                    <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="opS-rk-fcK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gr3-Rp-xqZ"/>
