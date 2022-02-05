@@ -61,12 +61,20 @@ class SampleViewController: UIViewController {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
         }
-        self.judgeImageView.isHidden = false
         print("スコア:\(correctCount)")
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        judgeImageView.isHidden = false
+        answerButton1.isEnabled = false
+        answerButton2.isEnabled = false
+        answerButton3.isEnabled = false
+        answerButton4.isEnabled = false
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.judgeImageView.isHidden = true
+            self.answerButton1.isEnabled = true
+            self.answerButton2.isEnabled = true
+            self.answerButton3.isEnabled = true
+            self.answerButton4.isEnabled = true
+            self.nextQuiz()
         }
-        nextQuiz()
     }
     
     func loadCSV(fileName: String) -> [String] {
