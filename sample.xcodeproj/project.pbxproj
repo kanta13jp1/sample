@@ -15,6 +15,7 @@
 		9883C51F27AE7A6400C785F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9883C51D27AE7A6400C785F3 /* LaunchScreen.storyboard */; };
 		9883C52727AE7E9300C785F3 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C52627AE7E9300C785F3 /* SampleViewController.swift */; };
 		9883C52927AE802A00C785F3 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C52827AE802A00C785F3 /* ScoreViewController.swift */; };
+		9883C52B27AE93D400C785F3 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9883C52A27AE93D400C785F3 /* quiz.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9883C52027AE7A6400C785F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9883C52627AE7E9300C785F3 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		9883C52827AE802A00C785F3 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		9883C52A27AE93D400C785F3 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = quiz.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9883C51827AE7A5F00C785F3 /* Main.storyboard */,
 				9883C52827AE802A00C785F3 /* ScoreViewController.swift */,
 				9883C52627AE7E9300C785F3 /* SampleViewController.swift */,
+				9883C52A27AE93D400C785F3 /* quiz.csv */,
 				9883C51B27AE7A6400C785F3 /* Assets.xcassets */,
 				9883C51D27AE7A6400C785F3 /* LaunchScreen.storyboard */,
 				9883C52027AE7A6400C785F3 /* Info.plist */,
@@ -133,6 +136,7 @@
 				9883C51F27AE7A6400C785F3 /* LaunchScreen.storyboard in Resources */,
 				9883C51C27AE7A6400C785F3 /* Assets.xcassets in Resources */,
 				9883C51A27AE7A5F00C785F3 /* Main.storyboard in Resources */,
+				9883C52B27AE93D400C785F3 /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
