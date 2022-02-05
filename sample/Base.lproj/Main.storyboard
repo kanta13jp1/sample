@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6W-bS-Fkn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="730.43478260869574" y="54.910714285714285"/>
+            <point key="canvasLocation" x="1420" y="55"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="DYb-fq-kvD">
@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dij-3n-h05" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1457.9710144927537" y="54.910714285714285"/>
+            <point key="canvasLocation" x="2225" y="55"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -148,7 +148,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="スタート"/>
                                 <connections>
-                                    <segue destination="0Rp-HB-fqE" kind="presentation" id="qvX-YQ-3kP"/>
+                                    <segue destination="0JD-1U-4Mz" kind="presentation" id="E3c-oj-dLI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -159,6 +159,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9" y="55"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aEz-JT-1kc">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="0JD-1U-4Mz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e2w-UN-GMv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="難易度を選択してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-rX-vcF">
+                                <rect key="frame" x="20" y="145" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q8-An-JJ8">
+                                <rect key="frame" x="155" y="315" width="105" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="レベル1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiT-Aj-3ev">
+                                <rect key="frame" x="153" y="479" width="109" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="レベル2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9p-x3-WMK">
+                                <rect key="frame" x="153" y="640" width="110" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="レベル3"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gr3-Rp-xqZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ce1-NG-yKK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740.57971014492762" y="54.910714285714285"/>
         </scene>
     </scenes>
     <resources>
