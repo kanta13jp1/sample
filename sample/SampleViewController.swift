@@ -23,6 +23,7 @@ class SampleViewController: UIViewController {
     var csvArray: [String] = []
     var quizArray: [String] = []
     var quizCount = 0
+    var correctCount = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,14 +43,21 @@ class SampleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let scoreVC = segue.destination as! ScoreViewController
+        scoreVC.correct = correctCount
+    }
+    
     // ボタンを押したときに呼ばれる
     @IBAction func btnAction(sender: UIButton) {
         print(sender.tag)
         if sender.tag == Int(quizArray[1]) {
             print("正解")
+            correctCount += 1
         } else {
             print("不正解")
         }
+        print("スコア:\(correctCount)")
         nextQuiz()
     }
     
