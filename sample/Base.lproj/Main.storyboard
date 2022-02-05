@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SfU-x6-ppT">
-                                <rect key="frame" x="0.0" y="191" width="414" height="238"/>
+                                <rect key="frame" x="0.0" y="193" width="414" height="238"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -78,6 +78,7 @@
                         <outlet property="answerButton3" destination="qyL-LF-3xD" id="Sc8-9P-mE2"/>
                         <outlet property="answerButton4" destination="HU5-Lk-gwf" id="64Z-gi-z25"/>
                         <outlet property="quizNumberLabel" destination="cLq-ML-dO5" id="bBH-9F-5Lw"/>
+                        <outlet property="quizTextView" destination="SfU-x6-ppT" id="Etx-2L-455"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6W-bS-Fkn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
