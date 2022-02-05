@@ -33,28 +33,40 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhS-dH-1cH">
-                                <rect key="frame" x="174" y="502" width="72" height="42"/>
+                                <rect key="frame" x="166" y="502" width="88" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ButtonA"/>
+                                <connections>
+                                    <action selector="btnActionWithSender:" destination="0Rp-HB-fqE" eventType="touchUpInside" id="IOa-m8-V2C"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyL-LF-3xD">
-                                <rect key="frame" x="174" y="653" width="72" height="42"/>
+                                <rect key="frame" x="166" y="653" width="89" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ButtonC"/>
+                                <connections>
+                                    <action selector="btnActionWithSender:" destination="0Rp-HB-fqE" eventType="touchUpInside" id="ERa-1X-nzY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HU5-Lk-gwf">
-                                <rect key="frame" x="174" y="736" width="72" height="42"/>
+                                <rect key="frame" x="166" y="736" width="89" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ButtonD"/>
+                                <connections>
+                                    <action selector="btnActionWithSender:" destination="0Rp-HB-fqE" eventType="touchUpInside" id="Qwn-fJ-fCp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgJ-Kf-USq">
-                                <rect key="frame" x="171" y="572" width="72" height="42"/>
+                                <rect key="frame" x="164" y="572" width="87" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ButtonB"/>
+                                <connections>
+                                    <action selector="btnActionWithSender:" destination="0Rp-HB-fqE" eventType="touchUpInside" id="RHf-dU-0QF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ebf-GL-7Nw"/>

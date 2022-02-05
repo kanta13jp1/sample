@@ -15,7 +15,11 @@ class SampleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    // ボタンを押したときに呼ばれる
+    @IBAction func btnAction(sender: UIButton) {
+        print(sender.tag)
+    }
+    
     /*
     // MARK: - Navigation
 
