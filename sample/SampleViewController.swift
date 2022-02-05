@@ -20,6 +20,8 @@ class SampleViewController: UIViewController {
     
     @IBOutlet weak var answerButton4: UIButton!
     
+    @IBOutlet var judgeImageView: UIImageView!
+    
     var csvArray: [String] = []
     var quizArray: [String] = []
     var quizCount = 0
@@ -54,10 +56,16 @@ class SampleViewController: UIViewController {
         if sender.tag == Int(quizArray[1]) {
             print("正解")
             correctCount += 1
+            judgeImageView.image = UIImage(named: "correct")
         } else {
             print("不正解")
+            judgeImageView.image = UIImage(named: "incorrect")
         }
+        self.judgeImageView.isHidden = false
         print("スコア:\(correctCount)")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.judgeImageView.isHidden = true
+        }
         nextQuiz()
     }
     
