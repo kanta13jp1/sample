@@ -26,9 +26,12 @@ class SampleViewController: UIViewController {
     var quizArray: [String] = []
     var quizCount = 0
     var correctCount = 0
+    var selectLevel = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("選択したのはレベル\(selectLevel)")
         
         csvArray = loadCSV(fileName: "quiz")
         print(csvArray)
