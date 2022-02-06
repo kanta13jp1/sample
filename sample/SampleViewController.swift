@@ -35,7 +35,6 @@ class SampleViewController: UIViewController {
         
         csvArray = loadCSV(fileName: "quiz\(selectLevel)")
         csvArray.shuffle()
-        print(csvArray)
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
         
@@ -86,11 +85,8 @@ class SampleViewController: UIViewController {
         let csvBundle = Bundle.main.path(forResource: fileName, ofType: "csv")!
         do {
             let csvData = try String(contentsOfFile: csvBundle, encoding: String.Encoding.utf8)
-            print(csvData)
             let lineChange = csvData.replacingOccurrences(of: "\r", with: "\n")
-            print(lineChange)
             csvArray = lineChange.components(separatedBy: "\n")
-            print(csvArray)
             csvArray.removeLast()
         } catch {
             print("エラー")

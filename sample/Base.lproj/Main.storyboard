@@ -115,6 +115,15 @@
                                     <action selector="toTopButtonAction:" destination="dp5-95-gE0" eventType="touchUpInside" id="gDo-0E-ujB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKl-Xq-zkM">
+                                <rect key="frame" x="91" y="288" width="243" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="結果をシェアする"/>
+                                <connections>
+                                    <action selector="shareButtonAction:" destination="dp5-95-gE0" eventType="touchUpInside" id="d5R-9N-260"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3hE-Wc-UKy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

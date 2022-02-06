@@ -20,6 +20,12 @@ class ScoreViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func shareButtonAction(_ sender: Any) {
+        let activityItems = ["\(correct)問正解しました。","#国民民主党クイズアプリ"]
+        let activityVC = UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
+        self.present(activityVC, animated: true)
+    }
+    
     @IBAction func toTopButtonAction(_ sender: Any) {
         self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
     }
