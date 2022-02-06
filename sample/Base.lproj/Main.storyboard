@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -124,17 +124,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH4-Xl-Hf4">
-                                <rect key="frame" x="0.0" y="147" width="414" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH4-Xl-Hf4">
+                                <rect key="frame" x="149" y="70" width="77" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Cb-vL-6Pc">
-                                <rect key="frame" x="20" y="430" width="374" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Cb-vL-6Pc">
+                                <rect key="frame" x="20" y="323.5" width="335" height="60"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="IqF-Pr-dHn"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="トップに戻る">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -143,10 +144,12 @@
                                     <action selector="toTopButtonAction:" destination="dp5-95-gE0" eventType="touchUpInside" id="gDo-0E-ujB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKl-Xq-zkM">
-                                <rect key="frame" x="20" y="288" width="374" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKl-Xq-zkM">
+                                <rect key="frame" x="20" y="193.5" width="335" height="60"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="gSf-f3-VJe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="結果をシェアする">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -158,6 +161,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3hE-Wc-UKy"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Cb-vL-6Pc" firstAttribute="centerY" secondItem="pJS-TR-YKh" secondAttribute="centerY" id="8oZ-Jq-xoy"/>
+                            <constraint firstItem="3Cb-vL-6Pc" firstAttribute="top" secondItem="bKl-Xq-zkM" secondAttribute="bottom" constant="50" id="DCH-41-H4d"/>
+                            <constraint firstItem="3hE-Wc-UKy" firstAttribute="trailing" secondItem="3Cb-vL-6Pc" secondAttribute="trailing" constant="20" id="GP1-U4-TeK"/>
+                            <constraint firstItem="bKl-Xq-zkM" firstAttribute="leading" secondItem="3hE-Wc-UKy" secondAttribute="leading" constant="20" id="KTq-aE-0DU"/>
+                            <constraint firstItem="3hE-Wc-UKy" firstAttribute="trailing" secondItem="bKl-Xq-zkM" secondAttribute="trailing" constant="20" id="ajD-wg-rNE"/>
+                            <constraint firstItem="GH4-Xl-Hf4" firstAttribute="centerX" secondItem="pJS-TR-YKh" secondAttribute="centerX" id="duj-5E-wWF"/>
+                            <constraint firstItem="3Cb-vL-6Pc" firstAttribute="leading" secondItem="3hE-Wc-UKy" secondAttribute="leading" constant="20" id="kmg-YF-fV0"/>
+                            <constraint firstItem="GH4-Xl-Hf4" firstAttribute="top" secondItem="3hE-Wc-UKy" secondAttribute="top" constant="70" id="wIN-0B-2WK"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="returnToTopButton" destination="3Cb-vL-6Pc" id="d0C-oD-IzZ"/>
@@ -167,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dij-3n-h05" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2428.985507246377" y="54.910714285714285"/>
+            <point key="canvasLocation" x="2428" y="54.422788605697157"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
