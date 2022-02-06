@@ -213,59 +213,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="難易度を選択してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-rX-vcF">
-                                <rect key="frame" x="20" y="145" width="339" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="難易度を選択してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-rX-vcF">
+                                <rect key="frame" x="23" y="100" width="329.5" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q8-An-JJ8">
-                                <rect key="frame" x="20" y="315" width="339" height="48"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="レベル1">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="UgS-Hm-dI3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiT-Aj-3ev">
-                                <rect key="frame" x="20" y="420" width="339" height="48"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="レベル2">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="Hrf-5f-xoL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9p-x3-WMK">
-                                <rect key="frame" x="18" y="526" width="339" height="48"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="レベル3">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="opS-rk-fcK"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="HvG-vz-qEz">
+                                <rect key="frame" x="39" y="213" width="295" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q8-An-JJ8">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="レベル1">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="UgS-Hm-dI3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiT-Aj-3ev">
+                                        <rect key="frame" x="0.0" y="90" width="295" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="レベル2">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="Hrf-5f-xoL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9p-x3-WMK">
+                                        <rect key="frame" x="0.0" y="180" width="295" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="レベル3">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="opS-rk-fcK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="kMZ-ij-epK"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gr3-Rp-xqZ"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="7Q8-An-JJ8" secondAttribute="trailing" constant="-35" id="6R1-HN-7vF"/>
-                            <constraint firstItem="7Q8-An-JJ8" firstAttribute="leading" secondItem="Gr3-Rp-xqZ" secondAttribute="leading" constant="20" id="AwJ-OB-Mq3"/>
-                            <constraint firstItem="7Q8-An-JJ8" firstAttribute="leading" secondItem="UVb-rX-vcF" secondAttribute="leading" id="O2e-lo-Mo3"/>
-                            <constraint firstItem="7Q8-An-JJ8" firstAttribute="top" secondItem="e2w-UN-GMv" secondAttribute="top" constant="315" id="SuK-bN-H7w"/>
-                            <constraint firstItem="XiT-Aj-3ev" firstAttribute="top" secondItem="e2w-UN-GMv" secondAttribute="top" constant="479" id="T7P-CA-dmd"/>
-                            <constraint firstItem="h9p-x3-WMK" firstAttribute="leading" secondItem="7Q8-An-JJ8" secondAttribute="leading" id="mAO-b5-UIy"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="h9p-x3-WMK" secondAttribute="bottom" constant="-21" id="oJK-g7-SEj"/>
-                            <constraint firstItem="h9p-x3-WMK" firstAttribute="leading" secondItem="XiT-Aj-3ev" secondAttribute="leading" id="oos-el-DGj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="XiT-Aj-3ev" secondAttribute="trailing" constant="-22" id="qaC-Os-iZB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="h9p-x3-WMK" secondAttribute="trailing" constant="-22" id="sMr-Va-eAk"/>
+                            <constraint firstItem="HvG-vz-qEz" firstAttribute="centerY" secondItem="e2w-UN-GMv" secondAttribute="centerY" id="Aum-Tl-PAL"/>
+                            <constraint firstItem="HvG-vz-qEz" firstAttribute="leading" secondItem="Gr3-Rp-xqZ" secondAttribute="leading" constant="40" id="N0N-TY-8bI"/>
+                            <constraint firstItem="Gr3-Rp-xqZ" firstAttribute="trailing" secondItem="HvG-vz-qEz" secondAttribute="trailing" constant="40" id="W3x-Gh-Syg"/>
+                            <constraint firstItem="UVb-rX-vcF" firstAttribute="top" secondItem="Gr3-Rp-xqZ" secondAttribute="top" constant="100" id="bMx-O2-U6p"/>
+                            <constraint firstItem="UVb-rX-vcF" firstAttribute="centerX" secondItem="e2w-UN-GMv" secondAttribute="centerX" id="fQP-vN-r4y"/>
                         </constraints>
                     </view>
                     <connections>
