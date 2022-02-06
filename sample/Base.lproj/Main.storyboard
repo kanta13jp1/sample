@@ -173,8 +173,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dT9-Su-oHx">
-                                <rect key="frame" x="16" y="224" width="343" height="60"/>
+                                <rect key="frame" x="20" y="293.5" width="335" height="80"/>
                                 <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="kL5-gu-0Ix"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="スタート">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -187,9 +190,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dT9-Su-oHx" secondAttribute="bottom" constant="383" id="SQk-m5-b4x"/>
-                            <constraint firstItem="dT9-Su-oHx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Sqc-gY-Obz"/>
-                            <constraint firstItem="dT9-Su-oHx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ieU-zR-TfY"/>
+                            <constraint firstItem="dT9-Su-oHx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7pr-Og-rTt"/>
+                            <constraint firstItem="dT9-Su-oHx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LZN-bF-BzW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dT9-Su-oHx" secondAttribute="trailing" constant="20" id="TK2-or-asf"/>
                             <constraint firstItem="u0h-kV-gvE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kIQ-QM-5lp"/>
                             <constraint firstItem="u0h-kV-gvE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="yd7-sQ-ncm"/>
                         </constraints>
