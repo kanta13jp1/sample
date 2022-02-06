@@ -190,9 +190,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国民民主党クイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-kV-gvE">
-                                <rect key="frame" x="-13.5" y="100" width="402" height="60"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-kV-gvE">
+                                <rect key="frame" x="20" y="100" width="335" height="95.5"/>
+                                <string key="text" base64-UTF8="YES">
+5Zu95rCR5rCR5Li75YWaEREREREREREREeKAqOOCr+OCpOOCug
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -216,8 +219,10 @@
                         <constraints>
                             <constraint firstItem="dT9-Su-oHx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7pr-Og-rTt"/>
                             <constraint firstItem="dT9-Su-oHx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LZN-bF-BzW"/>
+                            <constraint firstItem="u0h-kV-gvE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="MYB-ps-KzM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dT9-Su-oHx" secondAttribute="trailing" constant="20" id="TK2-or-asf"/>
                             <constraint firstItem="u0h-kV-gvE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kIQ-QM-5lp"/>
+                            <constraint firstAttribute="trailing" secondItem="u0h-kV-gvE" secondAttribute="trailing" constant="20" id="kSd-sR-Pb2"/>
                             <constraint firstItem="u0h-kV-gvE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="yd7-sQ-ncm"/>
                         </constraints>
                     </view>
