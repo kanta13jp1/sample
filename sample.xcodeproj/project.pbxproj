@@ -15,10 +15,12 @@
 		9883C51F27AE7A6400C785F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9883C51D27AE7A6400C785F3 /* LaunchScreen.storyboard */; };
 		9883C52727AE7E9300C785F3 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C52627AE7E9300C785F3 /* SampleViewController.swift */; };
 		9883C52927AE802A00C785F3 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C52827AE802A00C785F3 /* ScoreViewController.swift */; };
-		9883C52B27AE93D400C785F3 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9883C52A27AE93D400C785F3 /* quiz.csv */; };
+		9883C52B27AE93D400C785F3 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9883C52A27AE93D400C785F3 /* quiz1.csv */; };
 		9883C52F27AEB44000C785F3 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 9883C52D27AEB44000C785F3 /* correct.png */; };
 		9883C53027AEB44000C785F3 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9883C52E27AEB44000C785F3 /* incorrect.png */; };
 		9883C53427AED5CA00C785F3 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C53327AED5CA00C785F3 /* SelectLevelViewController.swift */; };
+		9883C53627AF475D00C785F3 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9883C53527AF475D00C785F3 /* quiz2.csv */; };
+		9883C53827AF485A00C785F3 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9883C53727AF485A00C785F3 /* quiz3.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +34,12 @@
 		9883C52027AE7A6400C785F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9883C52627AE7E9300C785F3 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		9883C52827AE802A00C785F3 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		9883C52A27AE93D400C785F3 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = quiz.csv; sourceTree = "<group>"; };
+		9883C52A27AE93D400C785F3 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
 		9883C52D27AEB44000C785F3 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		9883C52E27AEB44000C785F3 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		9883C53327AED5CA00C785F3 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		9883C53527AF475D00C785F3 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		9883C53727AF485A00C785F3 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,9 @@
 				9883C53327AED5CA00C785F3 /* SelectLevelViewController.swift */,
 				9883C52827AE802A00C785F3 /* ScoreViewController.swift */,
 				9883C52627AE7E9300C785F3 /* SampleViewController.swift */,
-				9883C52A27AE93D400C785F3 /* quiz.csv */,
+				9883C53527AF475D00C785F3 /* quiz2.csv */,
+				9883C53727AF485A00C785F3 /* quiz3.csv */,
+				9883C52A27AE93D400C785F3 /* quiz1.csv */,
 				9883C51B27AE7A6400C785F3 /* Assets.xcassets */,
 				9883C51D27AE7A6400C785F3 /* LaunchScreen.storyboard */,
 				9883C52027AE7A6400C785F3 /* Info.plist */,
@@ -150,12 +156,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9883C53627AF475D00C785F3 /* quiz2.csv in Resources */,
 				9883C52F27AEB44000C785F3 /* correct.png in Resources */,
 				9883C53027AEB44000C785F3 /* incorrect.png in Resources */,
 				9883C51F27AE7A6400C785F3 /* LaunchScreen.storyboard in Resources */,
 				9883C51C27AE7A6400C785F3 /* Assets.xcassets in Resources */,
 				9883C51A27AE7A5F00C785F3 /* Main.storyboard in Resources */,
-				9883C52B27AE93D400C785F3 /* quiz.csv in Resources */,
+				9883C52B27AE93D400C785F3 /* quiz1.csv in Resources */,
+				9883C53827AF485A00C785F3 /* quiz3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
