@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-7274274820025599~3928100169</string>
+	<key>GADIsAdManagerApp</key>
+	<string>true</string>
 </dict>
 </plist>
