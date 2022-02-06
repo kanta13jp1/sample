@@ -109,7 +109,7 @@
         <scene sceneID="DYb-fq-kvD">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="dp5-95-gE0" customClass="ScoreViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pJS-TR-YKh" customClass="S">
+                    <view key="view" contentMode="scaleToFill" id="pJS-TR-YKh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
