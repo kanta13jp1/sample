@@ -74,7 +74,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ebf-GL-7Nw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="answerButton1" destination="zhS-dH-1cH" id="RHH-da-Z97"/>
@@ -126,7 +126,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3hE-Wc-UKy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="scoreLabel" destination="GH4-Xl-Hf4" id="wRW-UW-sZF"/>
@@ -162,7 +162,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -213,7 +213,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gr3-Rp-xqZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <segue destination="0Rp-HB-fqE" kind="presentation" identifier="toQuizView" id="WsN-Tk-0c0"/>
