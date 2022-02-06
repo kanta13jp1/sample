@@ -9,7 +9,9 @@ import UIKit
 
 class ScoreViewController: UIViewController {
 
-    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet var scoreLabel: UILabel!
+    @IBOutlet var shareButton: UIButton!
+    @IBOutlet var returnToTopButton: UIButton!
     var correct = 0
     
     override func viewDidLoad() {
@@ -17,6 +19,11 @@ class ScoreViewController: UIViewController {
 
         scoreLabel.text = "\(correct)問正解！"
         
+        shareButton.layer.borderWidth = 2
+        shareButton.layer.borderColor = UIColor.black.cgColor
+        returnToTopButton.layer.borderWidth = 2
+        returnToTopButton.layer.borderColor = UIColor.black.cgColor
+    
         // Do any additional setup after loading the view.
     }
 
