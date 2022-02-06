@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="0Rp-HB-fqE" customClass="SampleViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JVA-bO-sHh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLq-ML-dO5">
@@ -110,7 +110,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="dp5-95-gE0" customClass="ScoreViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pJS-TR-YKh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH4-Xl-Hf4">
@@ -163,19 +163,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="国民民主党クイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-kV-gvE">
-                                <rect key="frame" x="6" y="128" width="402" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国民民主党クイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-kV-gvE">
+                                <rect key="frame" x="-13.5" y="100" width="402" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dT9-Su-oHx">
-                                <rect key="frame" x="20" y="419" width="374" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dT9-Su-oHx">
+                                <rect key="frame" x="16" y="224" width="343" height="60"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="スタート">
@@ -188,6 +186,13 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dT9-Su-oHx" secondAttribute="bottom" constant="383" id="SQk-m5-b4x"/>
+                            <constraint firstItem="dT9-Su-oHx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Sqc-gY-Obz"/>
+                            <constraint firstItem="dT9-Su-oHx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ieU-zR-TfY"/>
+                            <constraint firstItem="u0h-kV-gvE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kIQ-QM-5lp"/>
+                            <constraint firstItem="u0h-kV-gvE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="yd7-sQ-ncm"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="startButton" destination="dT9-Su-oHx" id="RwU-uQ-f5W"/>
@@ -202,19 +207,17 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="0JD-1U-4Mz" customClass="SelectLevelViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e2w-UN-GMv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="難易度を選択してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-rX-vcF">
-                                <rect key="frame" x="20" y="145" width="374" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="難易度を選択してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-rX-vcF">
+                                <rect key="frame" x="20" y="145" width="339" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q8-An-JJ8">
-                                <rect key="frame" x="20" y="315" width="374" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q8-An-JJ8">
+                                <rect key="frame" x="20" y="315" width="339" height="48"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="レベル1">
@@ -224,9 +227,8 @@
                                     <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="UgS-Hm-dI3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiT-Aj-3ev">
-                                <rect key="frame" x="20" y="479" width="361" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiT-Aj-3ev">
+                                <rect key="frame" x="20" y="420" width="339" height="48"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="レベル2">
@@ -236,9 +238,8 @@
                                     <action selector="levelButtonActionWithSender:" destination="0JD-1U-4Mz" eventType="touchUpInside" id="Hrf-5f-xoL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9p-x3-WMK">
-                                <rect key="frame" x="20" y="640" width="361" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9p-x3-WMK">
+                                <rect key="frame" x="18" y="526" width="339" height="48"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="レベル3">
@@ -251,6 +252,18 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gr3-Rp-xqZ"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.77647058823529413" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="7Q8-An-JJ8" secondAttribute="trailing" constant="-35" id="6R1-HN-7vF"/>
+                            <constraint firstItem="7Q8-An-JJ8" firstAttribute="leading" secondItem="Gr3-Rp-xqZ" secondAttribute="leading" constant="20" id="AwJ-OB-Mq3"/>
+                            <constraint firstItem="7Q8-An-JJ8" firstAttribute="leading" secondItem="UVb-rX-vcF" secondAttribute="leading" id="O2e-lo-Mo3"/>
+                            <constraint firstItem="7Q8-An-JJ8" firstAttribute="top" secondItem="e2w-UN-GMv" secondAttribute="top" constant="315" id="SuK-bN-H7w"/>
+                            <constraint firstItem="XiT-Aj-3ev" firstAttribute="top" secondItem="e2w-UN-GMv" secondAttribute="top" constant="479" id="T7P-CA-dmd"/>
+                            <constraint firstItem="h9p-x3-WMK" firstAttribute="leading" secondItem="7Q8-An-JJ8" secondAttribute="leading" id="mAO-b5-UIy"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="h9p-x3-WMK" secondAttribute="bottom" constant="-21" id="oJK-g7-SEj"/>
+                            <constraint firstItem="h9p-x3-WMK" firstAttribute="leading" secondItem="XiT-Aj-3ev" secondAttribute="leading" id="oos-el-DGj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XiT-Aj-3ev" secondAttribute="trailing" constant="-22" id="qaC-Os-iZB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h9p-x3-WMK" secondAttribute="trailing" constant="-22" id="sMr-Va-eAk"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="level1Button" destination="7Q8-An-JJ8" id="Ob6-1A-CmH"/>
@@ -261,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ce1-NG-yKK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740.57971014492762" y="54.910714285714285"/>
+            <point key="canvasLocation" x="740" y="54.422788605697157"/>
         </scene>
     </scenes>
     <resources>
