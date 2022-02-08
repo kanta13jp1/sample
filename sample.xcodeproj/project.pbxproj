@@ -22,6 +22,7 @@
 		9883C53627AF475D00C785F3 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9883C53527AF475D00C785F3 /* quiz2.csv */; };
 		9883C53827AF485A00C785F3 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9883C53727AF485A00C785F3 /* quiz3.csv */; };
 		9883C53B27AFC86900C785F3 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 9883C53A27AFC86800C785F3 /* launchImageView.png */; };
+		9883C54127B2B87800C785F3 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9883C54027B2B87800C785F3 /* sound.mp3 */; };
 		E73AA01C064A9F9C097E4206 /* Pods_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF5152F30DD86B5766B13C5 /* Pods_sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		9883C53527AF475D00C785F3 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		9883C53727AF485A00C785F3 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
 		9883C53A27AFC86800C785F3 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		9883C54027B2B87800C785F3 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../../Downloads/sound.mp3; sourceTree = "<group>"; };
 		E9BA97AD2C87425FC30A7AF9 /* Pods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.release.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 		9883C51127AE7A5E00C785F3 /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				9883C54027B2B87800C785F3 /* sound.mp3 */,
 				9883C53927AFC86800C785F3 /* launchImage */,
 				9883C52C27AEB44000C785F3 /* image */,
 				9883C51227AE7A5E00C785F3 /* AppDelegate.swift */,
@@ -197,6 +200,7 @@
 				9883C53627AF475D00C785F3 /* quiz2.csv in Resources */,
 				9883C52F27AEB44000C785F3 /* correct.png in Resources */,
 				9883C53027AEB44000C785F3 /* incorrect.png in Resources */,
+				9883C54127B2B87800C785F3 /* sound.mp3 in Resources */,
 				9883C51F27AE7A6400C785F3 /* LaunchScreen.storyboard in Resources */,
 				9883C51C27AE7A6400C785F3 /* Assets.xcassets in Resources */,
 				9883C51A27AE7A5F00C785F3 /* Main.storyboard in Resources */,
