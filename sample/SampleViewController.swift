@@ -10,6 +10,7 @@ import GoogleMobileAds
 
 // AVクラスをインポートする
 import AVFoundation
+import AudioToolbox
 
 class SampleViewController: UIViewController {
     @IBOutlet weak var quizNumberLabel: UILabel!
@@ -78,6 +79,7 @@ class SampleViewController: UIViewController {
     // ボタンを押したときに呼ばれる
     @IBAction func btnAction(sender: UIButton) {
         print(sender.tag)
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
         if sender.tag == Int(quizArray[1]) {
             print("正解")
             let soundURL = Bundle.main.url(forResource: "sound", withExtension: "mp3")
