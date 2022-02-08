@@ -8,6 +8,9 @@
 import UIKit
 import GoogleMobileAds
 
+// AVクラスをインポートする
+import AVFoundation
+
 class SampleViewController: UIViewController {
     @IBOutlet weak var quizNumberLabel: UILabel!
     
@@ -29,6 +32,8 @@ class SampleViewController: UIViewController {
     var quizCount = 0
     var correctCount = 0
     var selectLevel = 0
+    
+    var player:AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,6 +80,14 @@ class SampleViewController: UIViewController {
         print(sender.tag)
         if sender.tag == Int(quizArray[1]) {
             print("正解")
+            let soundURL = Bundle.main.url(forResource: "sound", withExtension: "mp3")
+            do {
+                // 効果音を鳴らす
+                player = try AVAudioPlayer(contentsOf: soundURL!)
+                player?.play()
+            } catch {
+                print("error...")
+            }
             correctCount += 1
             judgeImageView.image = UIImage(named: "correct")
         } else {
