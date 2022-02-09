@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uHQ-v0-OnG">
     <device id="retina4_7" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6W-bS-Fkn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1604" y="55"/>
+            <point key="canvasLocation" x="2543.1999999999998" y="54.422788605697157"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="DYb-fq-kvD">
@@ -183,9 +183,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dij-3n-h05" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2428" y="54.422788605697157"/>
+            <point key="canvasLocation" x="3367.1999999999998" y="54.422788605697157"/>
         </scene>
-        <!--View Controller-->
+        <!--国民民主党クイズ-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
@@ -194,7 +194,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-kV-gvE">
-                                <rect key="frame" x="20" y="100" width="335" height="95.5"/>
+                                <rect key="frame" x="20" y="144" width="335" height="95.5"/>
                                 <string key="text" base64-UTF8="YES">
 5Zu95rCR5rCR5Li75YWaEREREREREREREeKAqOOCr+OCpOOCug
 </string>
@@ -229,13 +229,14 @@
                             <constraint firstItem="u0h-kV-gvE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="yd7-sQ-ncm"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="国民民主党クイズ" id="Cog-fq-6IL"/>
                     <connections>
                         <outlet property="startButton" destination="dT9-Su-oHx" id="RwU-uQ-f5W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-97.101449275362327" y="54.910714285714285"/>
+            <point key="canvasLocation" x="840.79999999999995" y="54.422788605697157"/>
         </scene>
         <!--Select Level View Controller-->
         <scene sceneID="aEz-JT-1kc">
@@ -312,7 +313,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ce1-NG-yKK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740" y="54.422788605697157"/>
+            <point key="canvasLocation" x="1679.2" y="54.422788605697157"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HBZ-S5-3Dz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uHQ-v0-OnG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rif-C1-IC7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="w4V-wr-mgc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PsO-Q6-z5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="54.422788605697157"/>
         </scene>
     </scenes>
     <resources>
