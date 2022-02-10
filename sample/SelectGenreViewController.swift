@@ -9,15 +9,22 @@ import UIKit
 
 class SelectGenreViewController: UIViewController {
 
+    var selectTag = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let selectLevelVC = segue.destination as! SelectLevelViewController
+        selectLevelVC.selectGenre = selectTag
+    }
+    
     @IBAction func genreButtonAction(sender: UIButton) {
         print(sender.tag)
+        selectTag = sender.tag
         performSegue(withIdentifier: "toLevelSelectVC", sender: nil)
     }
     /*

@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9830437527B5361500FC756F /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830437427B5361400FC756F /* SelectGenreViewController.swift */; };
+		9830437727B540B400FC756F /* lpi1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9830437627B540B400FC756F /* lpi1.csv */; };
+		9830437927B5418B00FC756F /* lpi2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9830437827B5418B00FC756F /* lpi2.csv */; };
+		9830437B27B541BC00FC756F /* lpi3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9830437A27B541BC00FC756F /* lpi3.csv */; };
+		9830437D27B5430E00FC756F /* word1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9830437C27B5430E00FC756F /* word1.csv */; };
+		9830437F27B5435C00FC756F /* word2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9830437E27B5435C00FC756F /* word2.csv */; };
+		9830438127B5436D00FC756F /* word3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9830438027B5436D00FC756F /* word3.csv */; };
 		9883C51327AE7A5E00C785F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C51227AE7A5E00C785F3 /* AppDelegate.swift */; };
 		9883C51527AE7A5E00C785F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C51427AE7A5E00C785F3 /* SceneDelegate.swift */; };
 		9883C51727AE7A5E00C785F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C51627AE7A5E00C785F3 /* ViewController.swift */; };
@@ -31,6 +37,12 @@
 		2EF5152F30DD86B5766B13C5 /* Pods_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AE4E05463C7818EC08EE90 /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.debug.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
 		9830437427B5361400FC756F /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		9830437627B540B400FC756F /* lpi1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = lpi1.csv; sourceTree = "<group>"; };
+		9830437827B5418B00FC756F /* lpi2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = lpi2.csv; sourceTree = "<group>"; };
+		9830437A27B541BC00FC756F /* lpi3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = lpi3.csv; sourceTree = "<group>"; };
+		9830437C27B5430E00FC756F /* word1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = word1.csv; sourceTree = "<group>"; };
+		9830437E27B5435C00FC756F /* word2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = word2.csv; sourceTree = "<group>"; };
+		9830438027B5436D00FC756F /* word3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = word3.csv; sourceTree = "<group>"; };
 		9883C50F27AE7A5E00C785F3 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9883C51227AE7A5E00C785F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9883C51427AE7A5E00C785F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +125,13 @@
 				9883C53327AED5CA00C785F3 /* SelectLevelViewController.swift */,
 				9883C52827AE802A00C785F3 /* ScoreViewController.swift */,
 				9883C52627AE7E9300C785F3 /* SampleViewController.swift */,
+				9830437627B540B400FC756F /* lpi1.csv */,
+				9830437827B5418B00FC756F /* lpi2.csv */,
+				9830437A27B541BC00FC756F /* lpi3.csv */,
+				9830438027B5436D00FC756F /* word3.csv */,
 				9883C53527AF475D00C785F3 /* quiz2.csv */,
+				9830437C27B5430E00FC756F /* word1.csv */,
+				9830437E27B5435C00FC756F /* word2.csv */,
 				9883C53727AF485A00C785F3 /* quiz3.csv */,
 				9883C52A27AE93D400C785F3 /* quiz1.csv */,
 				9883C51B27AE7A6400C785F3 /* Assets.xcassets */,
@@ -200,12 +218,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9883C53B27AFC86900C785F3 /* launchImageView.png in Resources */,
+				9830437B27B541BC00FC756F /* lpi3.csv in Resources */,
+				9830438127B5436D00FC756F /* word3.csv in Resources */,
+				9830437727B540B400FC756F /* lpi1.csv in Resources */,
 				9883C53627AF475D00C785F3 /* quiz2.csv in Resources */,
+				9830437927B5418B00FC756F /* lpi2.csv in Resources */,
 				9883C52F27AEB44000C785F3 /* correct.png in Resources */,
 				9883C53027AEB44000C785F3 /* incorrect.png in Resources */,
 				9883C54127B2B87800C785F3 /* sound.mp3 in Resources */,
 				9883C51F27AE7A6400C785F3 /* LaunchScreen.storyboard in Resources */,
 				9883C51C27AE7A6400C785F3 /* Assets.xcassets in Resources */,
+				9830437F27B5435C00FC756F /* word2.csv in Resources */,
+				9830437D27B5430E00FC756F /* word1.csv in Resources */,
 				9883C51A27AE7A5F00C785F3 /* Main.storyboard in Resources */,
 				9883C52B27AE93D400C785F3 /* quiz1.csv in Resources */,
 				9883C53827AF485A00C785F3 /* quiz3.csv in Resources */,

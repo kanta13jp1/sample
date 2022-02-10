@@ -1,0 +1,1 @@
+デバイスが利用しているDMAチャネルの情報を確認できるコマンドとして適切なものを選びなさい。,4,cat /dev/dma,cat /etc/dma,lsdma,cat /proc/dma

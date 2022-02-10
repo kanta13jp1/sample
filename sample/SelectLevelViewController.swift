@@ -13,10 +13,13 @@ class SelectLevelViewController: UIViewController {
     @IBOutlet var level2Button: UIButton!
     @IBOutlet var level3Button: UIButton!
     var selectTag = 0
+    var selectGenre = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("選択したのはジャンル\(selectGenre)")
+        
         level1Button.layer.borderWidth = 2
         level1Button.layer.borderColor = UIColor.black.cgColor
 
@@ -32,6 +35,7 @@ class SelectLevelViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let quizVC = segue.destination as! SampleViewController
         quizVC.selectLevel = selectTag
+        quizVC.selectGenre = selectGenre
     }
     
     @IBAction func levelButtonAction(sender: UIButton) {

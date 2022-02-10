@@ -33,6 +33,7 @@ class SampleViewController: UIViewController {
     var quizCount = 0
     var correctCount = 0
     var selectLevel = 0
+    var selectGenre = 0
     
     var player:AVAudioPlayer?
     
@@ -46,10 +47,24 @@ class SampleViewController: UIViewController {
         addBannerViewToView(bannerView)
         
         print("選択したのはレベル\(selectLevel)")
+        print("選択したのはジャンル\(selectGenre)")
         
-        csvArray = loadCSV(fileName: "quiz\(selectLevel)")
+        var genre = ""
+        switch selectGenre {
+            case 1:
+                genre = "quiz"
+            case 2:
+                genre = "lpi"
+            case 3:
+                genre = "word"
+            default: // defaultは必須
+                print("エラー")
+        }
+        
+        csvArray = loadCSV(fileName: genre + "\(selectLevel)")
         csvArray.shuffle()
-        
+        print(csvArray.count)
+        print(quizCount)
         quizArray = csvArray[quizCount].components(separatedBy: ",")
         
         quizNumberLabel.text = "第\(quizCount + 1)問"
@@ -72,6 +87,7 @@ class SampleViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        quizCount = 0
         let scoreVC = segue.destination as! ScoreViewController
         scoreVC.correct = correctCount
     }
@@ -114,6 +130,8 @@ class SampleViewController: UIViewController {
     
     func loadCSV(fileName: String) -> [String] {
         print(fileName)
+        csvArray.removeAll()
+        print(csvArray.count)
         let csvBundle = Bundle.main.path(forResource: fileName, ofType: "csv")!
         do {
             let csvData = try String(contentsOfFile: csvBundle, encoding: String.Encoding.utf8)

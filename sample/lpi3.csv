@@ -1,0 +1,3 @@
+デバイスが利用しているDMAチャネルの情報を確認できるコマンドとして適切なものを選びなさい。,4,cat /dev/dma,cat /etc/dma,lsdma,cat /proc/dma
+ホットプラグを実現するためのプログラムなどが格納されているディレクトリとして適切なものを選びなさい。,4,/bin/udev,/proc/hotplug,/etc/udev,/var/hotplug
+ログインしているすべてのユーザーに告知してからシステムをシャットダウンするには、どのようなコマンドを実行すればよいか。適切なものを選びなさい。,2,init,shutdown,boot,stopd
