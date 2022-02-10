@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6W-bS-Fkn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2543.1999999999998" y="54.422788605697157"/>
+            <point key="canvasLocation" x="3025" y="54"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="DYb-fq-kvD">
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dij-3n-h05" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3367.1999999999998" y="54.422788605697157"/>
+            <point key="canvasLocation" x="3857" y="54"/>
         </scene>
         <!--国民民主党クイズ-->
         <scene sceneID="tne-QT-ifu">
@@ -213,7 +213,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0JD-1U-4Mz" kind="presentation" id="E3c-oj-dLI"/>
+                                    <segue destination="JQd-pi-d1t" kind="presentation" id="5vw-lw-Xwb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -236,7 +236,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840.79999999999995" y="54.422788605697157"/>
+            <point key="canvasLocation" x="735" y="54"/>
+        </scene>
+        <!--Select Genre View Controller-->
+        <scene sceneID="Fag-Xr-rcF">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="JQd-pi-d1t" customClass="SelectGenreViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o9u-uf-i5e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ジャンルを選択してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwx-HJ-b9r">
+                                <rect key="frame" x="10" y="100" width="355" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqK-7X-JFa">
+                                <rect key="frame" x="159" y="225" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="国民民主党"/>
+                                <connections>
+                                    <action selector="genreButtonActionWithSender:" destination="JQd-pi-d1t" eventType="touchUpInside" id="Yrq-QD-9wB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-py-W3h">
+                                <rect key="frame" x="182" y="309" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="LPI"/>
+                                <connections>
+                                    <action selector="genreButtonActionWithSender:" destination="JQd-pi-d1t" eventType="touchUpInside" id="Cov-rS-Aly"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elE-bD-5Td">
+                                <rect key="frame" x="174" y="403" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="英単語"/>
+                                <connections>
+                                    <action selector="genreButtonActionWithSender:" destination="JQd-pi-d1t" eventType="touchUpInside" id="sT6-xT-mI6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jk2-1c-kxo"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.77647058820000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uwx-HJ-b9r" firstAttribute="centerX" secondItem="o9u-uf-i5e" secondAttribute="centerX" id="TWV-Sd-bYP"/>
+                            <constraint firstItem="uwx-HJ-b9r" firstAttribute="top" secondItem="jk2-1c-kxo" secondAttribute="top" constant="100" id="vY0-IT-f9L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="0JD-1U-4Mz" kind="presentation" identifier="toLevelSelectVC" id="AMO-lX-A28"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCg-AG-idh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1556" y="54"/>
         </scene>
         <!--Select Level View Controller-->
         <scene sceneID="aEz-JT-1kc">
@@ -313,7 +367,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ce1-NG-yKK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1679.2" y="54.422788605697157"/>
+            <point key="canvasLocation" x="2313" y="54"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HBZ-S5-3Dz">
