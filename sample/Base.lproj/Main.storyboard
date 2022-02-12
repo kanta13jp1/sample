@@ -304,6 +304,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="ジャンル選択画面" id="JiI-DY-uiu"/>
                     <connections>
+                        <outlet property="genre1Button" destination="BqK-7X-JFa" id="4wI-NM-yfg"/>
+                        <outlet property="genre2Button" destination="XC8-py-W3h" id="Vgs-HA-Qaw"/>
+                        <outlet property="genre3Button" destination="elE-bD-5Td" id="4pB-li-Bmi"/>
                         <segue destination="0JD-1U-4Mz" kind="presentation" identifier="toLevelSelectVC" id="AMO-lX-A28"/>
                     </connections>
                 </viewController>
@@ -365,6 +368,8 @@
                     <navigationItem key="navigationItem" title="ストップウォッチ" id="UfT-tP-nnx"/>
                     <connections>
                         <outlet property="elapsedTimeLabel" destination="P02-gi-6IH" id="TAc-XR-u4V"/>
+                        <outlet property="startButton" destination="QyQ-cU-krx" id="TPv-bB-OSA"/>
+                        <outlet property="stopButton" destination="6bU-uh-uPs" id="nZj-47-ALJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nfH-D2-gby" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

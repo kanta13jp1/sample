@@ -11,6 +11,8 @@ class StopwatchViewController: UIViewController {
     
     @IBOutlet var elapsedTimeLabel: UILabel!
     
+    @IBOutlet var startButton: UIButton!
+    @IBOutlet var stopButton: UIButton!
     let dateFormatter = DateFormatter()
     
     var elapsedTimeAtStop: TimeInterval = 0
@@ -19,6 +21,12 @@ class StopwatchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        startButton.layer.borderWidth = 2
+        startButton.layer.borderColor = UIColor.black.cgColor
+
+        stopButton.layer.borderWidth = 2
+        stopButton.layer.borderColor = UIColor.black.cgColor
+
         dateFormatter.dateFormat = "mm:ss.S"
         dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
         updateElapsedTime()

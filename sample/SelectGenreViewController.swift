@@ -9,11 +9,23 @@ import UIKit
 
 class SelectGenreViewController: UIViewController {
 
+    @IBOutlet var genre1Button: UIButton!
+    @IBOutlet var genre2Button: UIButton!
+    @IBOutlet var genre3Button: UIButton!
     var selectTag = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        genre1Button.layer.borderWidth = 2
+        genre1Button.layer.borderColor = UIColor.black.cgColor
+
+        genre2Button.layer.borderWidth = 2
+        genre2Button.layer.borderColor = UIColor.black.cgColor
+
+        genre3Button.layer.borderWidth = 2
+        genre3Button.layer.borderColor = UIColor.black.cgColor
+        
         // Do any additional setup after loading the view.
     }
     

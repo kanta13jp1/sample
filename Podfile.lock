@@ -695,6 +695,7 @@ PODS:
 DEPENDENCIES:
   - Google-Mobile-Ads-SDK
   - MaterialComponents
+  - MDFInternationalization
 
 SPEC REPOS:
   trunk:
@@ -723,6 +724,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: f45f2df5a2d8c50206812b628fbdf9fca5389a19
+PODFILE CHECKSUM: 221cc9409dc38f3d5159df7712930db51b095966
 
 COCOAPODS: 1.11.2
