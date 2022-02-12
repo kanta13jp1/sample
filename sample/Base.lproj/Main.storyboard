@@ -202,7 +202,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dT9-Su-oHx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dT9-Su-oHx" customClass="MDCRaisedButton">
                                 <rect key="frame" x="20" y="293.5" width="335" height="80"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
@@ -253,25 +253,37 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OLq-PG-oPs">
-                                <rect key="frame" x="10" y="278.5" width="355" height="110"/>
+                                <rect key="frame" x="10" y="261.5" width="355" height="144"/>
                                 <subviews>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqK-7X-JFa">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="30"/>
-                                        <state key="normal" title="国民民主党"/>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqK-7X-JFa" customClass="MDCRaisedButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="41"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <state key="normal" title="国民民主党">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="genreButtonActionWithSender:" destination="JQd-pi-d1t" eventType="touchUpInside" id="Yrq-QD-9wB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-py-W3h">
-                                        <rect key="frame" x="0.0" y="40" width="355" height="30"/>
-                                        <state key="normal" title="LPI"/>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-py-W3h" customClass="MDCRaisedButton">
+                                        <rect key="frame" x="0.0" y="51" width="355" height="41"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <state key="normal" title="LPI">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="genreButtonActionWithSender:" destination="JQd-pi-d1t" eventType="touchUpInside" id="Cov-rS-Aly"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elE-bD-5Td">
-                                        <rect key="frame" x="0.0" y="80" width="355" height="30"/>
-                                        <state key="normal" title="英単語"/>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elE-bD-5Td" customClass="MDCRaisedButton">
+                                        <rect key="frame" x="0.0" y="102" width="355" height="42"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <state key="normal" title="英単語">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="genreButtonActionWithSender:" destination="JQd-pi-d1t" eventType="touchUpInside" id="sT6-xT-mI6"/>
                                         </connections>
@@ -314,18 +326,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="UL3-ON-hVS">
-                                <rect key="frame" x="100" y="318.5" width="175" height="30"/>
+                                <rect key="frame" x="58.5" y="312.5" width="258" height="42"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QyQ-cU-krx">
-                                        <rect key="frame" x="0.0" y="0.0" width="34" height="30"/>
-                                        <state key="normal" title="Start"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QyQ-cU-krx" customClass="MDCRaisedButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="58" height="42"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <state key="normal" title="Start">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="startButtonTapped:" destination="wo2-yC-XsO" eventType="touchUpInside" id="UkS-VX-RBl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bU-uh-uPs">
-                                        <rect key="frame" x="99" y="0.0" width="76" height="30"/>
-                                        <state key="normal" title="Stop/Reset"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bU-uh-uPs" customClass="MDCRaisedButton">
+                                        <rect key="frame" x="123" y="0.0" width="135" height="42"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <state key="normal" title="Stop / Reset">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="stopButtonTapped:" destination="wo2-yC-XsO" eventType="touchUpInside" id="8Nv-Nm-9X3"/>
                                         </connections>
