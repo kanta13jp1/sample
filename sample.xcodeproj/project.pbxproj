@@ -16,6 +16,8 @@
 		9830438127B5436D00FC756F /* word3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9830438027B5436D00FC756F /* word3.csv */; };
 		9830438327B65ACC00FC756F /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830438227B65ACC00FC756F /* ClockViewController.swift */; };
 		9830438527B65B3700FC756F /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830438427B65B3700FC756F /* StopwatchViewController.swift */; };
+		9830438727B8835400FC756F /* tab_home_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830438627B8835400FC756F /* tab_home_off@3x.png */; };
+		9830438927B8836200FC756F /* tab_home_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830438827B8836200FC756F /* tab_home_on@3x.png */; };
 		9883C51327AE7A5E00C785F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C51227AE7A5E00C785F3 /* AppDelegate.swift */; };
 		9883C51527AE7A5E00C785F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C51427AE7A5E00C785F3 /* SceneDelegate.swift */; };
 		9883C51727AE7A5E00C785F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883C51627AE7A5E00C785F3 /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 		9830438027B5436D00FC756F /* word3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = word3.csv; sourceTree = "<group>"; };
 		9830438227B65ACC00FC756F /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		9830438427B65B3700FC756F /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		9830438627B8835400FC756F /* tab_home_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_home_off@3x.png"; sourceTree = "<group>"; };
+		9830438827B8836200FC756F /* tab_home_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_home_on@3x.png"; sourceTree = "<group>"; };
 		9883C50F27AE7A5E00C785F3 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9883C51227AE7A5E00C785F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9883C51427AE7A5E00C785F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				9883C53327AED5CA00C785F3 /* SelectLevelViewController.swift */,
 				9883C52827AE802A00C785F3 /* ScoreViewController.swift */,
 				9883C52627AE7E9300C785F3 /* SampleViewController.swift */,
+				9830438627B8835400FC756F /* tab_home_off@3x.png */,
+				9830438827B8836200FC756F /* tab_home_on@3x.png */,
 				9830437627B540B400FC756F /* lpi1.csv */,
 				9830437827B5418B00FC756F /* lpi2.csv */,
 				9830437A27B541BC00FC756F /* lpi3.csv */,
@@ -226,6 +232,8 @@
 				9883C53B27AFC86900C785F3 /* launchImageView.png in Resources */,
 				9830437B27B541BC00FC756F /* lpi3.csv in Resources */,
 				9830438127B5436D00FC756F /* word3.csv in Resources */,
+				9830438927B8836200FC756F /* tab_home_on@3x.png in Resources */,
+				9830438727B8835400FC756F /* tab_home_off@3x.png in Resources */,
 				9830437727B540B400FC756F /* lpi1.csv in Resources */,
 				9883C53627AF475D00C785F3 /* quiz2.csv in Resources */,
 				9830437927B5418B00FC756F /* lpi2.csv in Resources */,
