@@ -12,12 +12,13 @@ class ViewController: UIViewController {
     @IBOutlet var startButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        startButton.layer.borderWidth = 2
-        startButton.layer.borderColor = UIColor.black.cgColor
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+
+        startButton.layer.borderWidth = 2
+        startButton.layer.borderColor = UIColor.black.cgColor
         
         UITabBar.appearance().tintColor = UIColor.red
         
